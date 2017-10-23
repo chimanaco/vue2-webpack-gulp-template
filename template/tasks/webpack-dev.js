@@ -1,4 +1,4 @@
-var config = require('../config.js');//得到配置文件
+var config = require('../config/config.js');//得到配置文件
 var path = require('path');//引用path模块
 var gulp = require('gulp'); //加载gulp模块
 
@@ -6,7 +6,7 @@ var gulp = require('gulp'); //加载gulp模块
 //开发环境执行的热部署
 var WebpackDevServer = require("webpack-dev-server");
 var webpack = require("webpack");
-var webpackDevConfig = require("../webpack.dev.config.js");
+var webpackDevConfig = require("../config/webpack.dev.config.js");
 
 //启动开发webpack服务器
 gulp.task("webpack-dev", function(callback) {
