@@ -1,4 +1,4 @@
-var config = require('../config.js');//得到配置文件
+var config = require('../config/config.js');//得到配置文件
 var path = require('path');//引用path模块
 var gulp = require('gulp'); //加载gulp模块
 //postcss插件模块

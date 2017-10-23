@@ -1,5 +1,5 @@
 var gulpSequence = require('gulp-sequence')//让任务能按照顺序执行的插件
-var config = require('../config.js');//得到配置文件
+var config = require('../config/config.js');//得到配置文件
 var path = require('path');//引用path模块
 var gulp = require('gulp'); //加载gulp模块
 
